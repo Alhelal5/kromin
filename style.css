@@ -1,0 +1,63 @@
+.bg-color{
+    background-color: #1D0F41;
+}
+.bg-height{
+    min-height: 150vh;
+}
+
+
+.li-style{
+    list-style-type: none;
+}
+.td{
+    text-decoration: none;
+}
+.min-height{
+    min-height: 150px;
+}
+.height{
+    height: 450px;
+    overflow-y: scroll;
+}
+.footer-top-bg{
+    background-color: #A33FF4;
+}
+
+            /* carousel css  */
+            /* carousel css  */
+            /* carousel css  */
+
+            @media (max-width: 767px) {
+                .carousel-inner .carousel-item > div {
+                    display: none;
+                }
+                .carousel-inner .carousel-item > div:first-child {
+                    display: block;
+                }
+            }
+            
+            .carousel-inner .carousel-item.active,
+            .carousel-inner .carousel-item-next,
+            .carousel-inner .carousel-item-prev {
+                display: flex;
+            }
+            
+            /* medium and up screens */
+            @media (min-width: 768px) {
+            
+                .carousel-inner .carousel-item-end.active,
+                .carousel-inner .carousel-item-next {
+                    transform: translateX(25%);
+                }
+            
+                .carousel-inner .carousel-item-start.active, 
+                .carousel-inner .carousel-item-prev {
+                    transform: translateX(-25%);
+                }
+            }
+            
+            .carousel-inner .carousel-item-end,
+            .carousel-inner .carousel-item-start { 
+                transform: translateX(0);
+            }
+            
