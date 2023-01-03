@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+.sect{
+    margin: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+    --font-size: min(max(48px, 18.4vw), 80px);
+
+    --blue:rgb(29, 15, 65);
+    --white:rgb(255, 255, 255);
+    --blue-pink:rgb(184, 79, 248);
+    --black:rgb(0, 0, 0);
+    --purple: linear-gradient(180deg,#a944f5,#9938f2);
+    --border: 1px solid #b84ff8;
+    --blue-black:rgb(43, 66, 114);
+
+    --text-xsm:12px;
+    --text-sm: 14px;
+    --text-md:18px;
+    --text-lg:32px;
+    --text-xl:48px;
+    --text-xxl:80px;
+
+
+    --fw-300:300;
+    --fw-400:400;
+    --fw-500:500;
+    --fw-600:600;
+    --fw-700:700;
+    --fw-800:800;
+    --fw-900:900;
+
+    --none:none;
+    
+}
+.navbar-nav ul li a{
+    color: var(--white);
+    /* padding: 5px 10px; */
+    margin: 3px 10px;
+    font-size: var(--text-sm);
+    font-weight: var(--fw-600);
+}
+
+.primary-color{
+    color: var(--blue);
+}
+.secondary-color{
+    color: var(--white);
+}
+.tertiary-color{
+    color: var(--blue-pink);
+}
+.primary-txt-color{
+    color: var(--blue-black);
+}
+
+
+.bgc-primary{
+    background-color: var(--blue);
+}
+.bgc-secondary{
+    background-color: var(--white);
+}
+.bgc-tertiary{
+    background-color: var(--blue-pink);
+}
+.bgc-gradient{
+    background-color: var(--purple);
+}
+
+
+
+
+.fw-300{
+    font-weight: var(--fw-300);
+}
+.fw-400{
+    font-weight: var(--fw-400);
+}
+.fw-500{
+    font-weight: var(--fw-500);
+}
+.fw-600{
+    font-weight: var(--fw-600);
+}
+.fw-700{
+    font-weight: var(--fw-700);
+}
+.fw-800{
+    font-weight: var(--fw-800);
+}
+.fw-900{
+    font-weight: var(--fw-900);
+}
+
+
+
+.line{
+    border-bottom: var(--border);
+}
+
+.none{
+    text-decoration: var(--none);
+    list-style-type: none;
+}
+
+.txt-hero{
+    font-size: var(--font-size);
+}
+
+
+.txt-xxl{
+    font-size: var(--text-xxl);
+    font-weight: 900;
+}
+.txt-xl{
+    font-size: var(--text-xl);
+}
+
+.txt-lg{
+    font-size: var(--text-lg);
+}
+.txt-md{
+    font-size: var(--text-md);
+}
+.txt-sm{
+    font-size: var(--text-sm);
+}
+.txt-xsm{
+    font-size: var(--text-xsm);
+}
+
+/* all sucess case button  */
+
+.cases-btn{
+    background: linear-gradient(90deg, rgb(130, 39, 238) 0.12%, rgb(184, 79, 248) 99.9%);
+
+}
+.contact-btn{
+    background: var(--white);
+}
+
+button :hover{
+    font-size: 12.5px;
+    transition: 1s;
+}

@@ -1,26 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+
+.kromin-img img{
+    margin-top: -28px;
+}
 .bg-color{
     background-color: #1D0F41;
 }
 .bg-height{
     min-height: 150vh;
 }
-
-
 .li-style{
     list-style-type: none;
 }
 .td{
     text-decoration: none;
 }
-.min-height{
-    min-height: 150px;
+.vh{
+    min-height: 100vh;
+}
+.home-hero{
+    height: 80vh;
 }
 .height{
     height: 450px;
     overflow-y: scroll;
 }
-.footer-top-bg{
-    background-color: #A33FF4;
+.card{
+    margin: 0 10px;
+    height: 150px;
+    width: 150px;
+}
+.scroll-height{
+    height: 90vh;
+    overflow-y: scroll;
+}
+.scroll p{
+    font-size: var(--text-md);
+    font-weight: var(--fw-400);
+    line-height: 2.5;
+    letter-spacing: 1.3px;
+}
+.footer li{
+    margin-bottom: 24px;
+
+}
+.footer a{
+    color: var(--white);
+    font-size: var(--text-sm);
+    font-weight: 700;
+}
+.footer .copyright a{
+    font-weight: 400;
+
 }
 
             /* carousel css  */
