@@ -25,7 +25,9 @@
     --text-lg:32px;
     --text-xl:48px;
     --text-xxl:80px;
-
+    --text-minmax-lg:min(max(32px, 8vw), 48px);
+    --text-minmax-md: min(max(16px, 25px), 25px);
+    --text-minmax-sm: min(max(14px, 2vw), 18px);
 
     --fw-300:300;
     --fw-400:400;
@@ -35,8 +37,19 @@
     --fw-800:800;
     --fw-900:900;
 
+
+    --letter-sp-sm:1;
+    --letter-sp-md:1.225;
+    --letter-sp-lg:1.5;
+
+    --line-height:2.3;
+
+
     --none:none;
     
+}
+.line-height{
+    line-height: var(--line-height);
 }
 .navbar-nav ul li a{
     color: var(--white);
@@ -44,6 +57,16 @@
     margin: 3px 10px;
     font-size: var(--text-sm);
     font-weight: var(--fw-600);
+}
+
+.font-minmax-lg{
+    font-size: var(--text-minmax-lg);
+}
+.font-minmax-md{
+    font-size: var(--text-minmax-md);
+}
+.font-minmax-sm{
+    font-size: var(--text-minmax-sm);
 }
 
 .primary-color{
@@ -101,12 +124,13 @@
 
 
 .line{
-    border-bottom: var(--border);
+    border-bottom:var(--border);
 }
 
 .none{
     text-decoration: var(--none);
-    list-style-type: none;
+    list-style-type: var(--none);
+    border: var(--none);
 }
 
 .txt-hero{
@@ -145,7 +169,25 @@
     background: var(--white);
 }
 
-button :hover{
-    font-size: 12.5px;
-    transition: 1s;
+
+/* hover effect css  */
+
+
+.nav-link:hover{
+    color: var(--tertiary-color);
+}
+
+.home-hero ul li a:hover{
+    color: var(--blue-pink);
+}
+.cases-btn:hover{
+    color: var(--white);
+}
+
+::-webkit-scrollbar{
+    width: 2px;
+}
+::-webkit-scrollbar-thumb{
+    background:var(--blue);
+    border-radius: 2px;
 }
